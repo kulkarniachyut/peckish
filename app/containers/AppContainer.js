@@ -2,12 +2,12 @@ import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux'
 import { ActionCreators } from '../actions'
-
 import {
   Animated,
   StyleSheet,
   View,
   NavigationExperimental
+  View
 } from 'react-native';
 import Home from './Home';
 import Detail from './Detail';
